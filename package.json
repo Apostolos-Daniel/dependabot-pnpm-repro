@@ -13,6 +13,6 @@
     "wait-on": "7.2.0"
   },
   "devDependencies": {
-    "dd-trace": "5.11.0"
+    "dd-trace": "5.12.0"
   }
 }
