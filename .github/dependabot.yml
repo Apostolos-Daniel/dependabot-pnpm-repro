@@ -1,0 +1,16 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+
+# Configuration file: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+version: 2
+updates:
+- package-ecosystem: "npm" # See documentation for possible values - https://stackoverflow.com/questions/77001898/contradiction-between-doc-and-schema-for-dependabot-with-pnpm#:~:text=pnpm%20is%20supported%2C%20but%20note,to%20use%20in%20the%20dependabot.
+  directory: "/" # Location of package manifests
+  open-pull-requests-limit: 10
+  schedule:
+    interval: "weekly"
+- package-ecosystem: "github-actions"
+  # Workflow files stored in the default location of `.github/workflows`. (You don't need to specify `/.github/workflows` for `directory`. You can use `directory: "/"`.)
+  directory: "/"
+  schedule:
+    interval: "weekly"
