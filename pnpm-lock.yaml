@@ -13,8 +13,8 @@ importers:
         version: 7.1.0
     devDependencies:
       dd-trace:
-        specifier: 5.11.0
-        version: 5.11.0
+        specifier: 5.12.0
+        version: 5.12.0
 
 packages:
 
@@ -132,8 +132,8 @@ packages:
     resolution: {integrity: sha512-8iwEduR2jR9wWYggeaYtYZWRiUe3XZPyAQtMTL1otv8X3kfR8xUIVb4l5awHEeyDrH6Je7N324lKzMKlMMN6Yw==}
     engines: {node: '>=12.17'}
 
-  dd-trace@5.11.0:
-    resolution: {integrity: sha512-LF4wT/SNWvPmiiuMJgrCeNZ0qaBWROuirDIzD6CmeqR7iYUkY+kDGh+pRCvjqwEetadIzNYGqtjQD2DmVZP41w==}
+  dd-trace@5.12.0:
+    resolution: {integrity: sha512-bO86NxlkvH7Qn6sJ6wduaZe/tmTX476WJFR7127kjssZbw2+wDFi/f5iFf0Ai6HbQf9ymMhYeeptx1zQvRmigQ==}
     engines: {node: '>=18'}
 
   delay@5.0.0:
@@ -418,7 +418,7 @@ snapshots:
 
   dc-polyfill@0.1.4: {}
 
-  dd-trace@5.11.0:
+  dd-trace@5.12.0:
     dependencies:
       '@datadog/native-appsec': 7.1.1
       '@datadog/native-iast-rewriter': 2.3.0
